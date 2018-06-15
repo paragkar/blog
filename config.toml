@@ -4,7 +4,7 @@ title = "Parag Kar"
 staticDir = ["static"]
 
 # Pagination
-paginate = 10
+paginate = 2
 paginatePath = "page"
 
 # Theme to use
@@ -23,7 +23,6 @@ defaultContentLanguage = "en"
 # English
 [languages.en]
   languageName = "English"
-
 
 # Other params
 [params]

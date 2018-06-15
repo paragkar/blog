@@ -3,9 +3,7 @@ author: "Parag Kar"
 date: "2014-04-09"
 linktitle: "What’s New"
 title: "What’s New"
-menu:
-  main:
-    parent: What’s New
+menu: 
 ---
 
 
