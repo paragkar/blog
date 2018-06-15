@@ -1,9 +1,10 @@
-{{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }}
+<!-- {{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }} -->
 
 <p class="article-meta">
     <div class="article-meta-container">
+    	<img src="/images/parag_kar_avatar.jpg" alt="Parag Kar" class="avatar">
         <div class="article-meta-author-name">{{ .Params.author }}</div>
         <div class="article-meta-description">{{ .Params.description }}</div>
     </div>
-    <span class="article-meta-published-at grey-text text-darken-1">{{ .Date.Format $dateFormat }}</span>
+    <!-- <span class="article-meta-published-at grey-text text-darken-1">{{ .Date.Format $dateFormat }}</span> -->
 </p>

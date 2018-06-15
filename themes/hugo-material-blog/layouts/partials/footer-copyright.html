@@ -1,4 +1,19 @@
 <span class="grey-text text-darken-4">{{ .Site.Copyright }}</span>
-<div class="right">
-    {{ partial "language-selector" . }}
-</div>
+
+<link href='https://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<!-- SOCIAL - Nav -->
+<ul class="social-nav">
+  <li class="item">
+    <a href="{{.Site.Params.linkedinLink}}"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
+  <li class="item">
+    <a href="{{.Site.Params.facebookLink}}"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+  </li>
+  <li class="item">
+    <a href="{{.Site.Params.twitterLink}}"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+  </li>
+  <li class="item">
+    <a href="{{.Site.Params.instagramLink}}"><i class="fa fa-instagram"></i><span>Instagram</span></a>
+  </li>
+</ul>

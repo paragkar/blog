@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "https://paragkar.github.io/"
 languageCode = "en-us"
 title = "Parag Kar"
 staticDir = ["static"]
@@ -15,7 +15,7 @@ copyright = "© 2018 Parag Kar"
 
 # Links format
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:title/"
 
 # Localization
 defaultContentLanguage = "en"
@@ -29,3 +29,7 @@ defaultContentLanguage = "en"
 [params]
   # Display post summaries instead of content in list templates (default: true)
   # truncate = false
+  facebookLink = "https://www.facebook.com/parag.kar.7"
+  linkedinLink = "https://www.linkedin.com/in/paragkar/"
+  twitterLink = "https://twitter.com/parag_kar?lang=en"
+  instagramLink = "https://www.instagram.com/parag_kar/"
